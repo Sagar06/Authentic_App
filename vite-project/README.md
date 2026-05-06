@@ -58,6 +58,4 @@ package.json        # Project configuration
 - `POST /users/logout`: End session and clear cookies.
 - `GET /users/current-user`: Fetch authenticated user profile.
 
-## 📝 License
 
-MIT
