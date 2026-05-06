@@ -2,7 +2,7 @@
 
 A sleek, secure, and high-performance authentication application built with **React** and **Vite**. This project demonstrates a complete authentication lifecycle using the FreeAPI Authentication Module.
 
-![UI Preview](https://via.placeholder.com/1200x600/09090b/fafafa?text=Authentic+React+UI+Preview)
+![UI Preview](./public/preview.png)
 
 ## ✨ Features
 
