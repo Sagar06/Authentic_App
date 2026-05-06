@@ -1,16 +1,63 @@
-# React + Vite
+# Authentic | Premium React Auth Flow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, secure, and high-performance authentication application built with **React** and **Vite**. This project demonstrates a complete authentication lifecycle using the FreeAPI Authentication Module.
 
-Currently, two official plugins are available:
+![UI Preview](https://via.placeholder.com/1200x600/09090b/fafafa?text=Authentic+React+UI+Preview)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Full Auth Lifecycle**: Register, Login, Logout, and Profile fetching.
+- **React 19 Core**: Modern implementation using Hooks (`useState`, `useEffect`) and functional components.
+- **Premium Aesthetics**: 
+  - Dark mode design with **Plus Jakarta Sans** typography.
+  - Smooth transitions and micro-interactions.
+  - Custom loaders and shimmering effects.
+- **State Persistence**: Automatic profile recovery on page refresh using React's lifecycle.
+- **Robust Feedback**: Real-time validation, error handling, and success notifications.
+- **Security**: Handles cookies and sessions for secure API communication.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite 8](https://vitejs.dev/)
+- **Styling**: Vanilla CSS (Custom Properties, Flexbox, Grid)
+- **API**: [FreeAPI Authentication Module](https://api.freeapi.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 📂 Project Structure
+
+```text
+src/
+├── App.jsx         # Main application logic and state
+├── main.jsx        # React entry point
+└── style.css       # Premium design system and animations
+index.html          # HTML template
+package.json        # Project configuration
+```
+
+## 🔑 Key Endpoints Used
+
+- `POST /users/register`: Create a new user account.
+- `POST /users/login`: Authenticate user and start session.
+- `POST /users/logout`: End session and clear cookies.
+- `GET /users/current-user`: Fetch authenticated user profile.
+
+## 📝 License
+
+MIT
